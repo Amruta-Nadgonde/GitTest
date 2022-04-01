@@ -8,9 +8,9 @@ import demo.App;
 public class AppTest {
   @Test
   public void addtest() {
-	  int a =10;
-	  int b=10;
-	  int exp =20;
+	  int a =20;
+	  int b=20;
+	  int exp =40;
 	  App ap =  new App();
 	  int act = ap.add(a, b);
 	  Assert.assertEquals(act, exp);
